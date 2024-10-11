@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+
+ 
+}
+
+.usuario{
+    background-color: #4b1db6;
+    margin: 20px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 333px;
+}
+h2{
+    text-align: center;
+}
+label{
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+input{
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    background: #8567ca;
+    box-sizing: border-box;
+    margin-top: 15px;
+    
+}
+
+input::placeholder{
+    color: #c2aafa; 
+    font-style: italic; 
+}
+.btn{
+    width: 100%;
+    background: #6633df;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    margin-top: 15px;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #8567ca;
+    border: 1px solid rgb(0, 0, 0);
+}
+button{
+    width: 100%;
+    background: #4b1db6;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
